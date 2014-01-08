@@ -19,8 +19,7 @@ public class CircleProgress extends View
 
     public CircleProgress(Context paramContext)
     {
-        super(paramContext);
-        defaultParam();
+        this(paramContext,null);
     }
 
     public CircleProgress(Context paramContext, AttributeSet paramAttributeSet)
