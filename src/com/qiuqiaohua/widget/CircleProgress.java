@@ -74,7 +74,10 @@ public class CircleProgress extends View
 
     }
 
-
+    /**
+     * 设置进度
+     * @param progress   取值范围0-100
+     */
     public void setmSubCurProgress(int progress){
         this.mSubCurProgress=progress;
         invalidate();
