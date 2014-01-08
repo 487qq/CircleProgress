@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Circle Progress"
+            />
+    <com.qiuqiaohua.widget.CircleProgress android:layout_width="50dip" android:layout_height="50dip"
+            android:id="@+id/arc"
+            />
+      <Button android:layout_width="wrap_content"
+              android:text="ARC"
+              android:layout_height="wrap_content" android:id="@+id/artBtn"/>
+
+    <com.qiuqiaohua.widget.CircleProgress android:layout_width="50dip" android:layout_height="50dip"
+                                          android:id="@+id/sector"
+            />
+    <Button android:layout_width="wrap_content"
+            android:text="SECTOR"
+            android:layout_height="wrap_content" android:id="@+id/sectorBtn"/>
+
+
+    <com.qiuqiaohua.widget.CircleProgress android:layout_width="50dip" android:layout_height="50dip"
+                                          android:id="@+id/round"
+            />
+    <Button android:layout_width="wrap_content"
+            android:text="ROUND"
+            android:layout_height="wrap_content" android:id="@+id/rounBtn"/>
+</LinearLayout>
+
